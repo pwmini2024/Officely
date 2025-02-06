@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.admin-panel {
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 10px 10px;
+}
+
+.home-icon {
+  font-size: 24px;
+}
+
+.button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 10px;
+}
+
+.button-hover{
+  background-color: #444;
+}
+
+.searchBar-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.searchBar{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 90%; /* Set the width to 50% of the page */
+  margin: 0 auto;
+  padding: 10px 30px 10px 10px; /* Adjusted padding to make space for the clear button */
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+.button-searchBar{
+  background-color:#4654cd ;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px; /* Adjusted padding to make space for the clear button */
+  cursor: pointer;
+  font-size: 1rem;
+  border: 1px solid #4654cd;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.button-searchBar:hover{
+  background-color: #7f89e7;
+  border: 1px solid #7f89e7;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  width: 150px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.inputContainer {
+  position: relative;
+  width: 300px;
+}
+
+.input-container {
+  position: relative;
+  flex: 1;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 30px 10px 10px; /* Adjusted padding to make space for the clear button */
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Ensures padding is included in the element's total width and height */
+}
+
+.clearButton {
+  position: absolute;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #aaa;
+}
+
+.loginButton {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  width: 16%;
+}
+
+.loginButton:hover {
+  background-color: #444;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 20px;
+}
+
+.list-header {
+  display: flex;
+  justify-content: column;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.office-edit {
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.office-edit-header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.back-button {
+  background-color: white;
+  border: none;
+  font-size: 28px;
+}
+
+.button-add-office{
+  background-color:#4654cd ;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px; /* Adjusted padding to make space for the clear button */
+  cursor: pointer;
+  font-size: 1rem;
+  border: 1px solid #4654cd;
+  white-space: nowrap;
+  margin:20px;
+}
+
+
+.button-add-office:hover{
+  background-color: #7f89e7;
+  border: 1px solid #7f89e7;
+}
+
+.calendar-apply-button{
+  background-color:#4654cd ;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px; /* Adjusted padding to make space for the clear button */
+  cursor: pointer;
+  font-size: 1rem;
+  border: 1px solid #4654cd;
+  white-space: nowrap;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.calendar-input{
+  width: 16%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-calendar{
+  display: flex;
+  flex-direction: row;
+}
+
+.amenities{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.registerButton{
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin:5px;
+  width: 16%;
+}
+
+.button-back{
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 20px;
+
+}
+
+.button-edit {
+  background-color: #4654cd;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 10px;
+}

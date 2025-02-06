@@ -1,0 +1,108 @@
+.item-container {
+    display: flex;
+    align-items:center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    gap: 15px;
+    padding: 15px;
+    width: 80%;
+}
+
+.booking-list-container {
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.booking-info {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 0px 30px;
+    margin: 5px;
+    width: 70%;
+}
+
+.info-piece {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+}
+
+.info-comments{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+}
+
+.edit-booking-button,
+.delete-booking-button {
+    cursor: pointer;
+    color: white;
+    background-color: #565656;
+    border: 1px solid #565656;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    white-space: nowrap;
+    font-size: 16px;
+    height:min-content;
+}
+
+.edit-booking-button:hover,
+.delete-booking-button:hover {
+    cursor: pointer;
+    background-color: #717171;
+    border: 1px solid #717171;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.booking-details{
+    padding: 20px 20px 20px 20px;
+  text-align: center;
+}
+
+.booking-edit{
+    padding: 20px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.date-input{
+    width: 16%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.payment-input{
+    width: 16%;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

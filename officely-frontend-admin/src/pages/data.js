@@ -1,0 +1,51 @@
+export const officesData = [
+    {
+        id:1,
+        name: 'Office One',
+        location: 'New York',
+        owner: 'John Doe',
+        pictureUrl: 'https://gravatar.com/avatar/c70a427fc261ad37e675c7d221a12f94?s=400&d=robohash&r=x',
+    },
+    {
+        id:2,
+        name: 'Office Two',
+        location: 'San Francisco',
+        owner: 'Jane Smith',
+        pictureUrl: 'https://robohash.org/d7bf254ba906cbc9f14aeb83a553fb43?set=set1&bgset=&size=400x400',
+    },
+    {
+        id:3,
+        name: 'Office Three',
+        location: 'Los Angeles',
+        owner: 'Alice Johnson',
+        pictureUrl: 'https://gravatar.com/avatar/62e6ef0bd980dc031d4d5ce83cfe4ddf?s=400&d=robohash&r=x',
+    },
+    {
+        id:4,
+        name: 'Office Four',
+        location: 'Chicago',
+        owner: 'Bob Brown',
+        pictureUrl: 'https://gravatar.com/avatar/c26646ddff7ca58748cab8b7795a22c2?s=400&d=robohash&r=x',
+    },
+    {
+        id:5,
+        name: 'Office Five',
+        location: 'Houston',
+        owner: 'Charlie Davis',
+        pictureUrl: 'https://robohash.org/6bb33afad7f575455aa8b841f24c58a7?set=set1&bgset=&size=400x400',
+    },
+    {
+        id:6,
+        name: 'Office Six',
+        location: 'Miami',
+        owner: 'Diana Evans',
+        pictureUrl: 'https://gravatar.com/avatar/689e6fa3893a7ad85bbba1caf79e50c0?s=400&d=robohash&r=x',
+    },
+    {
+        id:7,
+        name: 'Office Seven',
+        location: 'Seattle',
+        owner: 'Frank Green',
+        pictureUrl: 'https://gravatar.com/avatar/5263aba08637842fcd16d41729bc3902?s=400&d=robohash&r=x',
+    },
+];

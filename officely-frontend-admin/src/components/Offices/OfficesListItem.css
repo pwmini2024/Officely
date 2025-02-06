@@ -1,0 +1,60 @@
+.item-container {
+  display: flex;
+  align-items: left;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  gap: 15px;
+  padding: 15px;
+  width: 80%;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.office-info {
+  flex: 1;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+.location {
+  font-size: 14px;
+  color: #666;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-button,
+.delete-button {
+  cursor: pointer;
+  color: white;
+  background-color: #565656;
+  border: 1px solid #565656;
+  border-radius: 5px;
+  padding: 5px;
+  margin: auto;
+  font-size: 16px;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+  cursor: pointer;
+  background-color: #717171;
+  border: 1px solid #717171;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  margin: auto;
+  font-size: 16px;
+}
